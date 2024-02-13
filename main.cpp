@@ -13,6 +13,6 @@ int Sum(int a, int b)
 int main()
 {
   
-  std::cout<< "Hello World!";
+  RightAnswer();
   return 0;
 }
