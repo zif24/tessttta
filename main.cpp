@@ -22,5 +22,6 @@ int main()
 {
   
   RightAnswer();
+  WrongAnswer();
   return 0;
 }
