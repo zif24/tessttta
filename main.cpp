@@ -11,6 +11,12 @@ void RightAnswer()
   std::cout<< "RightAnswer";
   assert(Sum(5, 5) == 10);   
 }
+void WrongAnswer()
+{
+  std::cout<< "WrongAnswer";
+  assert(Sum(5, 22) == 10);   
+}
+
 
 int main()
 {
