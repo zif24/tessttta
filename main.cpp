@@ -6,7 +6,7 @@ int Sum(int a, int b)
 }
 int main()
 {
-  assert(Sum(5+5) == 5);
+  assert(Sum(5, 5) == 5);
   std::cout<< "Hello World!";
   return 0;
 }
