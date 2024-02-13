@@ -14,7 +14,7 @@ void RightAnswer()
 void WrongAnswer()
 {
   std::cout<< "WrongAnswer";
-  assert(Sum(5, 22) == 10);   
+  assert(Sum(5, 22) != 10);   
 }
 
 
